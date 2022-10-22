@@ -1,0 +1,87 @@
+/*
+ 
+ 
+
+*/
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+h2 {
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    color: #000000;
+}
+
+.container {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 350px;
+    background-color: #DEB887;
+    margin: 15vh auto 10vh auto;
+    padding: 5vh;
+    text-align: center;
+    color: #242F23;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+hr {
+    background-color: #A52A2A;
+    height: 5px;
+}
+
+article {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+article p {
+    display: inline-block;
+    width: 100%;
+}
+
+.item {
+    width: 70%;
+    text-align: left;
+}
+
+.price {
+    width: 20%;
+    text-align: right;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+section,
+img {
+    margin-bottom: 20px;
+}
